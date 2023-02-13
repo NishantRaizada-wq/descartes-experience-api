@@ -65,7 +65,7 @@
 			     <configuration>
 			        <verbose>true</verbose>
 			        <generateGitPropertiesFile>true</generateGitPropertiesFile>
-			        <generateGitPropertiesFileName>${basedir}/src/main/resources/git-info.json</generateGitPropertiesFileName>
+			        <generateGitPropertiesFileName>${project.basedir}/src/main/resources/git-info.json</generateGitPropertiesFileName>
 			        <format>json</format>
 			     </configuration>
 			</plugin>
